@@ -1,0 +1,16 @@
+.admin-container {
+    border: 2px solid #dc3545;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    background-color: #f8d7da;
+}
+
+h2 {
+    color: #dc3545;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}

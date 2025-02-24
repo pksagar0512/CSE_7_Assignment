@@ -1,0 +1,11 @@
+.employee-container {
+    border: 2px solid #28a745;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    background-color: #e9f7ef;
+}
+
+h2 {
+    color: #28a745;
+}
