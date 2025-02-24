@@ -1,0 +1,11 @@
+.user-container {
+    border: 2px solid #007bff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #007bff;
+}
