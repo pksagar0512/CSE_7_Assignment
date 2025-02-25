@@ -1,0 +1,16 @@
+<div class="user-card">
+  <h2>User Profile</h2>
+  <div class="user-info">
+    <p><strong>Username:</strong> {{user.username}}</p>
+    <p><strong>Email:</strong> {{user.email}}</p>
+    <p><strong>Role:</strong> {{user.role}}</p>
+    <p><strong>Last Login:</strong> {{user.lastLogin}}</p>
+    <div class="preferences">
+      <h3>Preferences</h3>
+      <ul>
+        <li *ngFor="let pref of user.preferences">{{pref}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  
