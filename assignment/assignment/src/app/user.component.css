@@ -1,0 +1,11 @@
+.user-card {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  h2 {
+    color: #1b5e20;
+  }
+  
