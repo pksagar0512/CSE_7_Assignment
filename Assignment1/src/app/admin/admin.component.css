@@ -1,0 +1,32 @@
+.heading {
+    text-align: center; 
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc; 
+  }
+.Details{
+  text-align: left;
+  padding: auto;
+}
+.innerDetails {
+    text-align: left; 
+    margin-bottom: 30px;
+    padding: 5px;
+    background-color: #b54444;
+    border-bottom: 1px solid #b49999; 
+
+  }
+/* 
+.firstdetails{
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+    margin: 30px auto;
+    background: rgb(134, 62, 62);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ */

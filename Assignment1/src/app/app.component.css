@@ -1,0 +1,25 @@
+.heading {
+    text-align: center; 
+    margin-bottom: 20px;
+    padding: 10px;
+    color: green;
+    background-color: #d8c2c2;
+    border-bottom: 1px solid #ccc; 
+    text-emphasis-color: red;
+  }
+  
+.Details {
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgb(226, 221, 215);
+    border-bottom: #d8c2c2;
+    text-emphasis:blue;
+  }
+
+.innerDetails {
+    text-align: justify;
+    color: rgb(17, 136, 240);
+    max-width: 10px;
+    text-decoration-color: aqua;
+}
