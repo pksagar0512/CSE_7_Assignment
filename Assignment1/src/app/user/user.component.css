@@ -1,0 +1,94 @@
+.user-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .user-avatar {
+    margin-right: 20px;
+  }
+  
+  .avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    background: #3498db;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-info h3 {
+    margin: 0 0 5px 0;
+    color: #2c3e50;
+  }
+  
+  .user-email {
+    color: #7f8c8d;
+    margin: 0 0 15px 0;
+  }
+  
+  .user-details {
+    margin-bottom: 20px;
+  }
+  
+  .detail-item {
+    margin-bottom: 8px;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    color: #34495e;
+    margin-right: 5px;
+  }
+  
+  .detail-value {
+    color: #7f8c8d;
+  }
+  
+  .status-active {
+    color: #27ae60;
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .user-btn {
+    padding: 8px 15px;
+    border: 1px solid #bdc3c7;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .user-btn.primary {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+  }
+  
+  .user-btn:hover {
+    background: #f8f9fa;
+  }
+  
+  .user-btn.primary:hover {
+    background: #2980b9;
+  }
