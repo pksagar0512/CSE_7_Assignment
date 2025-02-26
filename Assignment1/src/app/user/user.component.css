@@ -1,0 +1,30 @@
+.user {
+    background-color: #eaf2f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #34495e;
+  }
+  
+  button.btn {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn:hover {
+    background-color: #16a085;
+  }
+  
