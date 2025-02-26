@@ -1,9 +1,16 @@
 <div class="container">
   <h1>Angular Components Demo</h1>
+  
+  <div class="nav-buttons">
+    <button (click)="showComponent('employee')">Employee</button>
+    <button (click)="showComponent('user')">User</button>
+    <button (click)="showComponent('admin')">Admin</button>
+  </div>
+
   <div class="components-grid">
-    <app-employee></app-employee>
-    <app-user></app-user>
-    <app-admin></app-admin>
+    <app-employee *ngIf="activeComponent === 'employee'"></app-employee>
+    <app-user *ngIf="activeComponent === 'user'"></app-user>
+    <app-admin *ngIf="activeComponent === 'admin'"></app-admin>
   </div>
 </div>
 
