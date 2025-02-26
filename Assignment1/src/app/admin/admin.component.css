@@ -1,0 +1,20 @@
+.admin {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .logout {
+    background: red;
+  }
+  
