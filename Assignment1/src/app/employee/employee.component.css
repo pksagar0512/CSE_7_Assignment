@@ -1,0 +1,148 @@
+.employee-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .employee-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .employee-header {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .employee-header h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .employee-status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #27ae60;
+    margin-right: 5px;
+  }
+  
+  .status-text {
+    font-size: 14px;
+    color: #27ae60;
+  }
+  
+  .task-list {
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+    align-items: center;
+  }
+  
+  .task-checkbox {
+    margin-right: 15px;
+  }
+  
+  .task-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  .task-checkbox label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #e9ecef;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .task-checkbox input[type="checkbox"]:checked + label::after {
+    content: '✓';
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #3498db;
+  }
+  
+  .task-content {
+    flex: 1;
+  }
+  
+  .task-content h4 {
+    margin: 0 0 5px 0;
+    color: #2c3e50;
+  }
+  
+  .task-content p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  
+  .task-priority {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .task-priority.high {
+    background: #ffebee;
+    color: #e53935;
+  }
+  
+  .task-priority.medium {
+    background: #fff8e1;
+    color: #ffa000;
+  }
+  
+  .task-priority.low {
+    background: #e8f5e9;
+    color: #43a047;
+  }
+  
+  .employee-footer {
+    padding: 15px 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .employee-btn {
+    padding: 8px 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .employee-btn:hover {
+    background: #2980b9;
+  }
+  
+  .employee-btn.secondary {
+    background: white;
+    color: #3498db;
+    border: 1px solid #3498db;
+  }
+  
+  .employee-btn.secondary:hover {
+    background: #f8f9fa;
+  }
