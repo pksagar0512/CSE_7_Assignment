@@ -1,0 +1,24 @@
+.admin {
+    background-color: #ffeb3b; /* Bright yellow background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #fbc02d; /* Darker yellow border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin h2 {
+    color: #f57f17; /* Dark orange color for the heading */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .admin p {
+    color: #5d4037; /* Dark brown color for text */
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .admin p:first-child {
+    font-weight: bold; /* Make the first paragraph bold */
+  }
+  

@@ -1,0 +1,26 @@
+.employee {
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a card effect */
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .employee h2 {
+    color: #333; /* Dark gray color for the header */
+    font-size: 24px;
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .employee p {
+    color: #555; /* Medium gray for text */
+    font-size: 16px;
+    margin: 5px 0; /* Space between paragraphs */
+  }
+  
+  .employee p:first-child {
+    font-weight: bold; /* Make the first paragraph bold to highlight the name */
+  }
+  
