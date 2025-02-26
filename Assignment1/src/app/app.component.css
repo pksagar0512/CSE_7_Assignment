@@ -1,0 +1,33 @@
+/* App-level container for the entire page */
+.app-container {
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for the main heading */
+  .app-container h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Flexbox container to display the components side by side */
+  .components-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures components stack on smaller screens */
+    padding: 20px;
+  }
+  
+  /* Ensure each component takes some margin and space */
+  app-employee, app-user, app-admin {
+    flex: 1;
+    min-width: 250px; /* Ensures components don't get too small */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
