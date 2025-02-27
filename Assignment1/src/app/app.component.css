@@ -1,0 +1,12 @@
+.employee-container {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .employee-container h2 {
+    color: #388e3c;
+  }
+  
