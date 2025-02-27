@@ -1,1 +1,134 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  background-color: #f5f5f5;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 35px;
+  background-color: #6200ea;
+  border-radius: 15px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid #03dac6;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+app-employee, app-user, app-admin {
+  display: block;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-left: 6px solid #6200ea;
+  color: #444;
+  padding: 20px;
+  width: 320px;
+}
+
+app-employee h2, app-user h2, app-admin h2 {
+  color: #6200ea;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+app-employee p, app-user p, app-admin p {
+  color: #666;
+  font-size: 1rem;
+}
+
+app-employee:hover, app-user:hover, app-admin:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  background-color: #f8f9fa;
+}
+
+app-employee::after, app-user::after, app-admin::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #03dac6, #6200ea);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+app-employee:hover::after, app-user:hover::after, app-admin:hover::after {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6200ea;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3700b3;
+}
