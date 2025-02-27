@@ -1,0 +1,55 @@
+.admin-card {
+    width: 280px;  /* Adjusted for compact size */
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto; /* Centers the card */
+    font-family: 'Poppins', sans-serif;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #667eea;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.role {
+    background: #667eea;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.action-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.action-btn:hover {
+    background: #505bbd;
+}
