@@ -1,0 +1,41 @@
+/* Global styles for Employee */
+app-employee {
+    display: block;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light Blue */
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Global styles for Admin */
+app-admin {
+    display: block;
+    padding: 20px;
+    background-color: #fff3cd; /* Light Yellow */
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9900;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Global styles for User */
+app-user {
+    display: block;
+    padding: 20px;
+    background-color: #e6ffe6; /* Light Green */
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+    margin: 10px;
+}
