@@ -1,9 +1,10 @@
-<main class="main">
-  <div class="content">
-    <h1>Welcome to the Angular Application</h1>
-    <app-employee></app-employee>
-    <app-user></app-user>
-    <app-admin></app-admin>
-  </div>
-</main>
-<router-outlet />
+<nav>
+  <ul>
+    <li><a routerLink="home" routerLinkActive="Active">home</a></li>
+    <li><a routerLink="about" routerLinkActive="Active">about</a></li>
+    <li><a routerLink="contact" routerLinkActive="Active">contact</a></li>
+    <li><a routerLink="signin" routerLinkActive="Active">signin</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet> 
