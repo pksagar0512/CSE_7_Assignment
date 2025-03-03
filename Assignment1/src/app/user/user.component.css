@@ -1,0 +1,15 @@
+.user-card {
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .user-info {
+    margin-top: 15px;
+  }
+  
+  .user-info p {
+    margin: 8px 0;
+  }
