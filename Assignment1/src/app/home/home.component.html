@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>Welcome to Our Angular App</h1>
+  
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+      <button (click)="showComponent('employee')">Employee</button>
+      <button (click)="showComponent('user')">User</button>
+      <button (click)="showComponent('admin')">Admin</button>
+    </nav>
+  
+    <!-- Conditionally Display Components -->
+    <div class="content">
+      <div *ngIf="selectedComponent === 'employee'">
+        <app-employee></app-employee>
+      </div>
+      <div *ngIf="selectedComponent === 'user'">
+        <app-user></app-user>
+      </div>
+      <div *ngIf="selectedComponent === 'admin'">
+        <app-admin></app-admin>
+      </div>
+    </div>
+  </div>
+  
