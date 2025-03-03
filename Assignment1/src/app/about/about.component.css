@@ -1,0 +1,16 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  .about-content {
+    max-width: 500px;
+  }
+  
+  .about-image img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
