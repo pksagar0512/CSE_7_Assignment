@@ -1,22 +1,24 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { EmployeeComponent } from './employee/employee.component';
-import { UserComponent } from './user/user.component';
-import { AdminComponent } from './admin/admin.component';
+import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, EmployeeComponent, UserComponent, AdminComponent],
+  imports: [RouterModule, RouterLink, RouterLinkActive, RouterOutlet], // Import RouterModule for routing
   template: `
     <div class="main-container">
       <header>
-        <h1>Angular Components Demo</h1>
+        <h1>Simple Angular Application</h1>
+        <nav>
+          <a routerLink="/home" routerLinkActive="active">Home</a>
+          <a routerLink="/about" routerLinkActive="active">About</a>
+          <a routerLink="/contact" routerLinkActive="active">Contact</a>
+          <a routerLink="/login" routerLinkActive="active">LogIn</a>
+        </nav>
       </header>
       <main>
-        <app-employee></app-employee>
-        <app-user></app-user>
-        <app-admin></app-admin>
+        <router-outlet></router-outlet>
       </main>
     </div>
   `,
